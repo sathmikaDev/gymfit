@@ -4,7 +4,7 @@ import LandingImage from "../images/Landing.png";
 
 const Landing = () => {
   return (
-    <section className="px-10 mt-16 text-center">
+    <section className="px-10 mt-16 text-center container mx-auto">
       <h1 className="font-body-medium text-center text-white text-6xl">
         Ultimate Fitness Destination <br /> for Unleashing Your Potential !
       </h1>

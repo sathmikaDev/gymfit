@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         "body-medium": ["ClashGrotesk-Medium"],
+        "body-light": ["ClashGrotesk-Light"],
+        "body-regular": ["ClashGrotesk-Regular"],
         primary: ["Inter"],
       },
     },
