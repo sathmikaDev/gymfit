@@ -52,7 +52,7 @@ const Pricing = () => {
         />
         <PricingCard
           title="VIP Package"
-          packageName="$79/"
+          packageName="$95/"
           content={vipPackage}
           middle={false}
           end={true}
