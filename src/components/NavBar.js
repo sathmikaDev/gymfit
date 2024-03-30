@@ -21,19 +21,18 @@ const NavBar = () => {
           );
         })}
       </ul>
-      {isNavBarOpen && (
-        <button
-          className="border-none outline-none cursor-pointer"
-          onClick={() => {
-            setIsNavBarOpen(!isNavBarOpen);
-          }}
-        >
-          <IoMenu className="text-[#03F5F4]" size={25} />
-        </button>
-      )}
+
+      <button
+        className="border-none outline-none cursor-pointer md:hidden"
+        onClick={() => {
+          setIsNavBarOpen(!isNavBarOpen);
+        }}
+      >
+        <IoMenu className="text-[#03F5F4]" size={25} />
+      </button>
 
       <div
-        className={`rounded-b-lg bg-[#222222] p-6 z-20 absolute right-4 left-4 transition-all duration-300 ease-in-out opacity-95 ${
+        className={`rounded-b-lg bg-[#222222] p-6 z-20 absolute right-4 left-4 top-10 transition-all duration-300 ease-in-out opacity-95 ${
           isNavBarOpen ? "block" : "hidden"
         }`}
       >
